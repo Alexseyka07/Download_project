@@ -1,0 +1,27 @@
+<div class="wrapper">
+    <div class="header">
+        <h1>Downloader Files</h1>
+    </div>
+    <div class="menu">
+        <ul>
+            <form action="/FileUpload/Index"><button type="submit"><h2>Download</h2></button></form>
+            <form action="/FileUpload/Downloads"><button type="submit"><h2>Upload</h2></button></form>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="uplaod-section">
+            <form class="upload-form" method="post" enctype="multipart/form-data" action="/FileUpload/Upload">
+                <div class="dropzone">
+                    <p>Drag and drop a file or select a file</p>
+                    <input type="file" class="file-input" id="fileinput" name="file">
+                    <label for="fileinput" class="upload-label">CHOOSE FILE</label>
+                </div>
+                <input name="password" placeholder="придумайте пароль"/>
+                <button type="submit" class="upload-button">Upload</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>fileUploader | Alexsey Myasoedov production</p>
+    </div>
+</div>

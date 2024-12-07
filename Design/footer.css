@@ -1,0 +1,19 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.menu{
+    background-color: green;
+}
+.content{
+    background-color: red;
+    flex: 1
+}
+.footer{
+    background-color: blue;
+}

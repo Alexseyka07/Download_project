@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ieLeizLhWPW57zckU5Luy+zFVl+UxheYAi1odIy1hwYZdmDHwVEN/5Um8zRNAbMLFXoKOrzxOMCzQ9UVMagC9g==",
+  "success": true,
+  "projectFilePath": "/Users/alexsey/Downloads/DownloadApp-master/lesson15.11.csproj",
+  "expectedPackageFiles": [
+    "/Users/alexsey/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

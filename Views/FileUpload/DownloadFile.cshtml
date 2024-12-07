@@ -1,0 +1,14 @@
+﻿@model string
+<div class="wrapper">
+        <div class="header">
+            <h1>Загрузчик файлов</h1>
+            <p>Финальный этап</p>
+        </div>
+        <div class="main">
+            <form action="/FileUpload/DownloadFile" method="post">
+                <input type="text" name="fileName" placeholder="Введите имя файла" value=@Model>
+                <input type="text" name="password" placeholder="Введите пароль">
+                <button type="submit" class="upload-button">Скачать</button>
+            </form>
+        </div>
+    </div>

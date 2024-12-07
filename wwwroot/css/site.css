@@ -1,0 +1,133 @@
+*{
+  margin:0;
+  padding:0;
+}
+html{
+  font-size: 16px;
+}
+body{
+  background-color: rgb(195, 221, 221);
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  background-color: rgb(152, 196, 236);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+.header h1{
+  font-size: 2.5rem;
+}
+.main{
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+.menu{
+  background-color: rgb(0, 54, 97);
+  padding: 1rem;
+}
+.menu ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 6rem;
+  justify-content: center;
+}
+.menu button{
+  background-color: #2e4d4f;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+.menu button:hover{
+  background-color: rgb(90, 106, 119);
+}
+.uplaod-section{
+  text-align: center;
+  padding: 1rem;
+}
+.dropzone{
+  border: 2px dashed rgb(131, 131, 237);
+  border-radius: 8px;
+  padding: 0.5rem;
+  background-color: rgb(128, 124, 209);
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: background-color 0.4s ease;
+}
+.dropzone:hover{
+  background-color: rgb(92, 116, 206);
+}
+.file-input{
+  display: none;
+}
+.footer{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+.upload-label{
+  color: rgb(50, 82, 184);
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.upload-button{
+  background-color: rgb(0, 61, 184);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.upload-button:hover{
+  background-color: rgb(0, 106, 176);
+}
+
+.downloads{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.download-item{
+  background-color: rgb(54, 158, 227);
+  padding: 1rem;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.download-item h4{
+  font-size: 1.2rem;
+}
+.download-link{
+  color: white;
+  text-decoration: none;
+  background-color: rgb(63, 63, 255);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+.download-link:hover{
+  background-color: rgb(0, 0, 181);
+}
